@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E88B8168CFAD7D6FA2CD39 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D791AD053DFFCF3E92685761 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DB8A90681B5ECAD400C17CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A90671B5ECAD400C17CB5 /* AppDelegate.swift */; };
 		DB8A906A1B5ECAD400C17CB5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A90691B5ECAD400C17CB5 /* MasterViewController.swift */; };
 		DB8A906C1B5ECAD400C17CB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A906B1B5ECAD400C17CB5 /* DetailViewController.swift */; };
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B91A2BA2DAEB4EE7B3CCEE3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B143F669E7EF99C5FCE101BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D791AD053DFFCF3E92685761 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8A90621B5ECAD400C17CB5 /* Go RSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go RSS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8A90661B5ECAD400C17CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8A90671B5ECAD400C17CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E88B8168CFAD7D6FA2CD39 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ED4060AB02B25075550C4E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D791AD053DFFCF3E92685761 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB8A90591B5ECAD400C17CB5 = {
 			isa = PBXGroup;
 			children = (
 				DB8A90641B5ECAD400C17CB5 /* Go RSS */,
 				DB8A907C1B5ECAD400C17CB5 /* Go RSSTests */,
 				DB8A90631B5ECAD400C17CB5 /* Products */,
+				FAB5CC93B20790C31A12241C /* Pods */,
+				6ED4060AB02B25075550C4E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +99,6 @@
 				DB8A906B1B5ECAD400C17CB5 /* DetailViewController.swift */,
 				DB8A906D1B5ECAD400C17CB5 /* Main.storyboard */,
 				DB8A90701B5ECAD400C17CB5 /* Images.xcassets */,
-				DB8A90721B5ECAD400C17CB5 /* LaunchScreen.xib */,
 				DB8A90651B5ECAD400C17CB5 /* Supporting Files */,
 			);
 			path = "Go RSS";
@@ -93,6 +107,7 @@
 		DB8A90651B5ECAD400C17CB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB8A90721B5ECAD400C17CB5 /* LaunchScreen.xib */,
 				DB8A90661B5ECAD400C17CB5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +130,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FAB5CC93B20790C31A12241C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B91A2BA2DAEB4EE7B3CCEE3 /* Pods.debug.xcconfig */,
+				B143F669E7EF99C5FCE101BE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8A90831B5ECAD400C17CB5 /* Build configuration list for PBXNativeTarget "Go RSS" */;
 			buildPhases = (
+				6192A24F5AB05541CE268AC2 /* Check Pods Manifest.lock */,
 				DB8A905E1B5ECAD400C17CB5 /* Sources */,
 				DB8A905F1B5ECAD400C17CB5 /* Frameworks */,
 				DB8A90601B5ECAD400C17CB5 /* Resources */,
+				6FEA96D59C01F9D5083F4EB2 /* Embed Pods Frameworks */,
+				64BC8500B0031A2D3DF4027A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +191,7 @@
 				TargetAttributes = {
 					DB8A90611B5ECAD400C17CB5 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7KXVPC4Y3C;
 					};
 					DB8A90781B5ECAD400C17CB5 = {
 						CreatedOnToolsVersion = 6.4;
@@ -209,6 +237,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6192A24F5AB05541CE268AC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64BC8500B0031A2D3DF4027A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FEA96D59C01F9D5083F4EB2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB8A905E1B5ECAD400C17CB5 /* Sources */ = {
@@ -344,8 +420,10 @@
 		};
 		DB8A90841B5ECAD400C17CB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B91A2BA2DAEB4EE7B3CCEE3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Go RSS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,8 +432,10 @@
 		};
 		DB8A90851B5ECAD400C17CB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143F669E7EF99C5FCE101BE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Go RSS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +495,7 @@
 				DB8A90851B5ECAD400C17CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB8A90861B5ECAD400C17CB5 /* Build configuration list for PBXNativeTarget "Go RSSTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +504,7 @@
 				DB8A90881B5ECAD400C17CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
