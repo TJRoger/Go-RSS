@@ -5,4 +5,4 @@ use_frameworks!
 pod 'MBProgressHUD', '~> 0.9.1'
 pod 'MWFeedParser', '~> 1.0.1'
 pod 'KINWebBrowser', '~> 1.2.5'
-pod 'MMDrawerController', '~> 0.5.7'
+pod 'MMDrawerController+Storyboard', '~> 0.0.1'

@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		02E88B8168CFAD7D6FA2CD39 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D791AD053DFFCF3E92685761 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB3A00261B5F9FBA0065E6E6 /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A00251B5F9FBA0065E6E6 /* RSSItem.swift */; };
+		DB3A00281B5FA5980065E6E6 /* SourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A00271B5FA5980065E6E6 /* SourceTableViewController.swift */; };
+		DB3A002A1B5FB5260065E6E6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A00291B5FB5260065E6E6 /* NewsTableViewCell.swift */; };
+		DB3A002C1B5FBACE0065E6E6 /* SourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A002B1B5FBACE0065E6E6 /* SourceTableViewCell.swift */; };
 		DB8A90681B5ECAD400C17CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A90671B5ECAD400C17CB5 /* AppDelegate.swift */; };
-		DB8A906A1B5ECAD400C17CB5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A90691B5ECAD400C17CB5 /* MasterViewController.swift */; };
-		DB8A906C1B5ECAD400C17CB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A906B1B5ECAD400C17CB5 /* DetailViewController.swift */; };
+		DB8A906A1B5ECAD400C17CB5 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A90691B5ECAD400C17CB5 /* NewTableViewController.swift */; };
 		DB8A906F1B5ECAD400C17CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8A906D1B5ECAD400C17CB5 /* Main.storyboard */; };
 		DB8A90711B5ECAD400C17CB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8A90701B5ECAD400C17CB5 /* Images.xcassets */; };
 		DB8A90741B5ECAD400C17CB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8A90721B5ECAD400C17CB5 /* LaunchScreen.xib */; };
 		DB8A90801B5ECAD400C17CB5 /* Go_RSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A907F1B5ECAD400C17CB5 /* Go_RSSTests.swift */; };
+		DB8A90901B5EE8B200C17CB5 /* RSSSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A908F1B5EE8B200C17CB5 /* RSSSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +35,22 @@
 		5B91A2BA2DAEB4EE7B3CCEE3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B143F669E7EF99C5FCE101BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D791AD053DFFCF3E92685761 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3A00251B5F9FBA0065E6E6 /* RSSItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSItem.swift; sourceTree = "<group>"; };
+		DB3A00271B5FA5980065E6E6 /* SourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceTableViewController.swift; sourceTree = "<group>"; };
+		DB3A00291B5FB5260065E6E6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		DB3A002B1B5FBACE0065E6E6 /* SourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceTableViewCell.swift; sourceTree = "<group>"; };
 		DB8A90621B5ECAD400C17CB5 /* Go RSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go RSS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8A90661B5ECAD400C17CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8A90671B5ECAD400C17CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB8A90691B5ECAD400C17CB5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		DB8A906B1B5ECAD400C17CB5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DB8A90691B5ECAD400C17CB5 /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 		DB8A906E1B5ECAD400C17CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB8A90701B5ECAD400C17CB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB8A90731B5ECAD400C17CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DB8A90791B5ECAD400C17CB5 /* Go RSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go RSSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8A907E1B5ECAD400C17CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8A907F1B5ECAD400C17CB5 /* Go_RSSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_RSSTests.swift; sourceTree = "<group>"; };
+		DB8A908E1B5EE14300C17CB5 /* Go RSS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Go RSS-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB8A908F1B5EE8B200C17CB5 /* RSSSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				DB8A90671B5ECAD400C17CB5 /* AppDelegate.swift */,
-				DB8A90691B5ECAD400C17CB5 /* MasterViewController.swift */,
-				DB8A906B1B5ECAD400C17CB5 /* DetailViewController.swift */,
+				DB8A908F1B5EE8B200C17CB5 /* RSSSource.swift */,
+				DB3A00251B5F9FBA0065E6E6 /* RSSItem.swift */,
+				DB3A002B1B5FBACE0065E6E6 /* SourceTableViewCell.swift */,
+				DB3A00271B5FA5980065E6E6 /* SourceTableViewController.swift */,
+				DB8A90691B5ECAD400C17CB5 /* NewTableViewController.swift */,
+				DB3A00291B5FB5260065E6E6 /* NewsTableViewCell.swift */,
 				DB8A906D1B5ECAD400C17CB5 /* Main.storyboard */,
 				DB8A90701B5ECAD400C17CB5 /* Images.xcassets */,
 				DB8A90651B5ECAD400C17CB5 /* Supporting Files */,
@@ -107,6 +120,7 @@
 		DB8A90651B5ECAD400C17CB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB8A908E1B5EE14300C17CB5 /* Go RSS-Bridging-Header.h */,
 				DB8A90721B5ECAD400C17CB5 /* LaunchScreen.xib */,
 				DB8A90661B5ECAD400C17CB5 /* Info.plist */,
 			);
@@ -291,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8A906C1B5ECAD400C17CB5 /* DetailViewController.swift in Sources */,
-				DB8A906A1B5ECAD400C17CB5 /* MasterViewController.swift in Sources */,
+				DB3A002C1B5FBACE0065E6E6 /* SourceTableViewCell.swift in Sources */,
+				DB3A002A1B5FB5260065E6E6 /* NewsTableViewCell.swift in Sources */,
+				DB3A00261B5F9FBA0065E6E6 /* RSSItem.swift in Sources */,
+				DB3A00281B5FA5980065E6E6 /* SourceTableViewController.swift in Sources */,
+				DB8A906A1B5ECAD400C17CB5 /* NewTableViewController.swift in Sources */,
 				DB8A90681B5ECAD400C17CB5 /* AppDelegate.swift in Sources */,
+				DB8A90901B5EE8B200C17CB5 /* RSSSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +441,13 @@
 			baseConfigurationReference = 5B91A2BA2DAEB4EE7B3CCEE3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Go RSS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go RSS/Go RSS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -435,10 +456,12 @@
 			baseConfigurationReference = B143F669E7EF99C5FCE101BE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Go RSS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go RSS/Go RSS-Bridging-Header.h";
 			};
 			name = Release;
 		};

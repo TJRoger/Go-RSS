@@ -53,6 +53,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'KINWebBrowser.framework'
   install_framework 'MBProgressHUD.framework'
   install_framework 'MMDrawerController.framework'
+  install_framework 'MMDrawerController_Storyboard.framework'
   install_framework 'MWFeedParser.framework'
   install_framework 'TUSafariActivity.framework'
 fi
@@ -62,6 +63,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'KINWebBrowser.framework'
   install_framework 'MBProgressHUD.framework'
   install_framework 'MMDrawerController.framework'
+  install_framework 'MMDrawerController_Storyboard.framework'
   install_framework 'MWFeedParser.framework'
   install_framework 'TUSafariActivity.framework'
 fi
