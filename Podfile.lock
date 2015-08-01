@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (1.2.3)
+  - ARChromeActivity (1.0.2)
+  - KINWebBrowser (1.2.5):
+    - ARChromeActivity (= 1.0.2)
+    - TUSafariActivity (= 1.0.2)
+  - MBProgressHUD (0.9.1)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - SCLAlertView (0.4.1)
+  - TUSafariActivity (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 1.2.3)
+  - KINWebBrowser (~> 1.2.5)
+  - MBProgressHUD (~> 0.9.1)
+  - MMDrawerController (~> 0.6.0)
+  - MWFeedParser (~> 1.0.1)
+  - SCLAlertView (~> 0.4.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  ARChromeActivity: 6488aedc8dd0624b103ea8caf6218e52692aaf77
+  KINWebBrowser: 773e75882717d735cc37772cf71d5eb2b28554fe
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  SCLAlertView: 9e60641edd9efcfc6d58227558eb7b03678dbcf3
+  TUSafariActivity: 32e3e5dc9123e5533a42d41e1c3246d12911a4a2
+
+COCOAPODS: 0.38.0
